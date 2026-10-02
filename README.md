@@ -26,6 +26,8 @@ and a preview-saver. No third-party Python dependencies.*
 ![](https://github.com/user-attachments/assets/…)<img width="1920" height="970" alt="PixPin_2026-10-02_18-04-42" src="https://github.com/user-attachments/assets/89459013-7a6e-4695-aad8-8b21f88eb79e" />
 
 ![](https://github.com/user-attachments/assets/…)<img width="1920" height="970" alt="PixPin_2026-10-02_18-06-35" src="https://github.com/user-attachments/assets/086a7e13-7aa9-4141-b6df-d2e93a3b6bc4" />
+![](https://github.com/user-attachments/assets/…)<img width="1920" height="970" alt="PixPin_2026-10-02_18-09-55" src="https://github.com/user-attachments/assets/377506c8-cdfe-4a6e-853c-87a58d7e3918" />
+![](https://github.com/user-attachments/assets/…)<img width="1920" height="970" alt="PixPin_2026-10-02_18-10-04" src="https://github.com/user-attachments/assets/a3a3dd7f-8732-41b7-8ec4-e1d8d1a6195a" />
 
 
 ---
