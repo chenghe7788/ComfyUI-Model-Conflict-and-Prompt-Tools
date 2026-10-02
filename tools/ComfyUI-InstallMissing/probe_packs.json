@@ -1,0 +1,98 @@
+[
+  {
+    "title": "ComfyUI-LivePortraitKJ",
+    "repo": "kijai/ComfyUI-LivePortraitKJ",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "comfyui_controlnet_aux",
+    "repo": "Fannovel16/comfyui_controlnet_aux",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-BRIA_AI-RMBG",
+    "repo": "ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-Gemini",
+    "repo": "Visionatrix/ComfyUI-Gemini",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-Gemini (ZHO 原版)",
+    "repo": "ZHO-ZHO-ZHO/ComfyUI-Gemini",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-Qwen",
+    "repo": "SXQBW/ComfyUI-Qwen",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-VideoHelperSuite",
+    "repo": "Kosinkadink/ComfyUI-VideoHelperSuite",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "comfyui-portrait-master-zh-cn",
+    "repo": "ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-ArtGallery",
+    "repo": "ZHO-ZHO-ZHO/ComfyUI-ArtGallery",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "rgthree-comfy",
+    "repo": "rgthree/rgthree-comfy",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-Flowty-TripoSR-ZHO",
+    "repo": "ZHO-ZHO-ZHO/ComfyUI-Flowty-TripoSR-ZHO",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  },
+  {
+    "title": "ComfyUI-3D-Pack",
+    "repo": "MrForExample/ComfyUI-3D-Pack",
+    "branch": null,
+    "probe": "URLError",
+    "requirements": [],
+    "touches_torch": []
+  }
+]

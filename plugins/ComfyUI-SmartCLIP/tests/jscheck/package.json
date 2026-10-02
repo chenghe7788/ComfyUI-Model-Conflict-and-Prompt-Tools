@@ -1,0 +1,6 @@
+{
+  "name": "smartclip-jscheck",
+  "private": true,
+  "type": "module",
+  "description": "Headless test harness for ComfyUI_SmartCLIP/web/js. The real files are copied in unchanged (same .js names) so that Node resolves the same relative import specifiers ComfyUI's frontend does."
+}

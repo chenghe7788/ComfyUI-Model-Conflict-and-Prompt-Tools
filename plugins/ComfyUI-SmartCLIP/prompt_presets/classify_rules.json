@@ -1,0 +1,69 @@
+{
+  "_readme": [
+    "SmartCLIP 提示词分类规则（“拆分入库”用）。",
+    "categories: 分类名 -> 关键词数组（中英都行，大小写无关，子串匹配）。",
+    "  一个词条会被分到“匹配到的最长关键词”所属的分类；",
+    "  完整落在词边界上的关键词优先于“夹在长词里”的匹配。",
+    "fallback: 谁都没匹配上时归到哪个分类。",
+    "改完保存即生效（按文件修改时间判断，无需重启 ComfyUI）。",
+    "删掉这个文件也能用：会回落到代码里的内置规则（内容与这里默认值一致）。",
+    "以 _ 开头的 key 会被忽略，可用来写注释。"
+  ],
+
+  "fallback": "其它",
+
+  "categories": {
+    "质量词": [
+      "masterpiece", "best quality", "highly detailed", "ultra detailed",
+      "sharp focus", "absurdres", "highres", "8k", "very aesthetic",
+      "amazing quality", "professional", "杰作", "极品", "高质量", "最高画质"
+    ],
+    "人物": [
+      "1girl", "1boy", "solo", "girl", "boy", "woman", "man", "female",
+      "male", "face", "portrait", "character", "body", "skin", "eyes",
+      "女孩", "男孩", "人物", "少女", "肖像", "五官", "眼睛", "皮肤", "身体"
+    ],
+    "表情": [
+      "smile", "expression", "blush", "open mouth", "angry", "sad", "happy",
+      "tears", "looking at viewer", "表情", "微笑", "生气", "哭泣", "害羞"
+    ],
+    "发型": [
+      "hair", "bangs", "ponytail", "twintails", "braid", "bun", "bob cut",
+      "hime cut", "short hair", "long hair", "发型", "头发", "刘海",
+      "双马尾", "辫子", "短发", "长发", "卷发", "丸子头"
+    ],
+    "衣服": [
+      "dress", "shirt", "skirt", "uniform", "jacket", "coat", "sweater",
+      "hoodie", "pants", "shorts", "bikini", "swimsuit", "lingerie",
+      "underwear", "socks", "stockings", "thighhighs", "gloves", "shoes",
+      "boots", "hat", "衣服", "服装", "裙", "衬衫", "制服", "外套", "裤",
+      "泳装", "内衣", "袜子", "鞋", "帽"
+    ],
+    "配饰": [
+      "necklace", "earring", "bracelet", "ring", "glasses", "choker",
+      "ribbon", "hairband", "jewelry", "配饰", "项链", "耳环", "手链",
+      "戒指", "眼镜", "项圈", "发饰", "珠宝"
+    ],
+    "动作姿势": [
+      "standing", "sitting", "lying", "kneeling", "walking", "running",
+      "pose", "arms up", "hand on hip", "from side", "from behind",
+      "looking back", "姿势", "动作", "站立", "坐着", "躺着", "跪着", "奔跑"
+    ],
+    "环境": [
+      "outdoor", "indoor", "forest", "city", "street", "beach", "ocean",
+      "mountain", "sky", "night", "sunset", "room", "bedroom", "classroom",
+      "background", "scenery", "water", "snow", "rain", "garden",
+      "环境", "背景", "森林", "城市", "街道", "海滩", "海", "山", "天空",
+      "夜晚", "黄昏", "房间", "教室", "室内", "室外", "雪", "雨", "花园"
+    ],
+    "光照": [
+      "lighting", "light", "sunlight", "backlight", "rim light", "shadow",
+      "golden hour", "volumetric", "光照", "光", "阳光", "逆光", "阴影", "打光"
+    ],
+    "镜头": [
+      "close-up", "medium shot", "full body", "cowboy shot", "depth of field",
+      "lens", "wide shot", "dutch angle", "from above", "镜头", "构图",
+      "特写", "全身", "半身", "景深", "视角"
+    ]
+  }
+}

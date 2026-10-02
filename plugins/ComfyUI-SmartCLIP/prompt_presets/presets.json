@@ -1,0 +1,385 @@
+{
+  "_readme": [
+    "SmartCLIP 词库。key = 模型族（generic/sd15/sdxl/pony/illustrious/sd3/flux），",
+    "每个模型族下面分 positive / negative，再下面一级是分类名，分类里是词条数组。",
+    "格式要求：分类值必须是数组（或 {'prompts': [...]}）；单个字符串也兼容。",
+    "改完直接保存即可生效（按文件修改时间判断，无需重启 ComfyUI）；",
+    "若某个模型族/方向没写，则自动回落到代码内置的最小词库。",
+    "_shared 段放你自己新建的分类（不属于任何模型族）：任何工作流的提示词弹窗都能看到它，",
+    "正向的只进正向弹窗、反向的只进反向弹窗。你按「+ 新建分类」建出来的都会写到这里。",
+    "以 _ 开头的 key 会被忽略，可用来写注释。"
+  ],
+  "generic": {
+    "positive": {
+      "质量词": [
+        "masterpiece",
+        "best quality",
+        "highly detailed",
+        "sharp focus",
+        "professional"
+      ],
+      "光照": [
+        "soft lighting",
+        "cinematic lighting",
+        "rim light",
+        "natural light"
+      ],
+      "镜头": [
+        "close-up",
+        "medium shot",
+        "depth of field",
+        "85mm lens",
+        "shallow depth of field"
+      ]
+    },
+    "negative": {
+      "通用负面": [
+        "worst quality",
+        "low quality",
+        "blurry",
+        "jpeg artifacts",
+        "watermark",
+        "signature",
+        "text",
+        "error"
+      ],
+      "解剖": [
+        "bad anatomy",
+        "bad hands",
+        "extra fingers",
+        "deformed",
+        "extra limbs"
+      ]
+    }
+  },
+  "sd15": {
+    "positive": {
+      "质量词": [
+        "masterpiece",
+        "best quality",
+        "ultra detailed",
+        "high resolution",
+        "8k wallpaper",
+        "absurdres"
+      ],
+      "写实摄影": [
+        "photorealistic",
+        "raw photo",
+        "film grain",
+        "professional photography",
+        "natural skin texture",
+        "detailed skin pores"
+      ]
+    },
+    "negative": {
+      "通用负面": [
+        "worst quality",
+        "low quality",
+        "normal quality",
+        "lowres",
+        "blurry",
+        "jpeg artifacts",
+        "watermark",
+        "signature",
+        "text",
+        "error",
+        "cropped",
+        "out of frame"
+      ],
+      "解剖手部": [
+        "bad anatomy",
+        "bad hands",
+        "missing fingers",
+        "extra digit",
+        "fewer digits",
+        "mutated hands",
+        "poorly drawn hands",
+        "extra limbs",
+        "long neck",
+        "malformed limbs"
+      ]
+    }
+  },
+  "sdxl": {
+    "positive": {
+      "质量词": [
+        "masterpiece",
+        "best quality",
+        "highly detailed",
+        "sharp focus",
+        "professional",
+        "absurdres"
+      ],
+      "写实摄影": [
+        "photorealistic",
+        "cinematic photo",
+        "shot on DSLR",
+        "natural skin texture",
+        "detailed eyes",
+        "film grain"
+      ],
+      "细节增强": [
+        "intricate details",
+        "fine details",
+        "high contrast",
+        "ultra sharp",
+        "8k uhd"
+      ]
+    },
+    "negative": {
+      "通用负面": [
+        "worst quality",
+        "low quality",
+        "blurry",
+        "jpeg artifacts",
+        "watermark",
+        "signature",
+        "text",
+        "deformed",
+        "cropped"
+      ],
+      "解剖手部": [
+        "bad anatomy",
+        "bad hands",
+        "extra fingers",
+        "missing fingers",
+        "mutated hands",
+        "extra limbs",
+        "fused fingers"
+      ]
+    }
+  },
+  "pony": {
+    "positive": {
+      "评分标签": [
+        "score_9",
+        "score_9_up",
+        "score_8_up",
+        "score_7_up",
+        "score_6_up"
+      ],
+      "来源标签": [
+        "source_anime",
+        "source_cartoon",
+        "source_furry",
+        "source_pony",
+        "source_photography"
+      ],
+      "质量词": [
+        "masterpiece",
+        "best quality",
+        "absurdres",
+        "highres",
+        "very aesthetic",
+        "ultra detailed"
+      ]
+    },
+    "negative": {
+      "评分负面": [
+        "score_4",
+        "score_5",
+        "score_6",
+        "score_3",
+        "score_2",
+        "score_1"
+      ]
+    }
+  },
+  "illustrious": {
+    "positive": {
+      "质量词": [
+        "masterpiece",
+        "best quality",
+        "amazing quality",
+        "very aesthetic",
+        "absurdres",
+        "highres"
+      ],
+      "细节": [
+        "detailed eyes",
+        "detailed background",
+        "intricate details",
+        "beautiful detailed eyes"
+      ]
+    },
+    "negative": {
+      "通用负面": [
+        "worst quality",
+        "low quality",
+        "bad quality",
+        "lowres",
+        "blurry",
+        "jpeg artifacts",
+        "watermark",
+        "signature",
+        "artist name",
+        "username",
+        "text",
+        "error",
+        "cropped"
+      ]
+    }
+  },
+  "sd3": {
+    "positive": {
+      "质量词": [
+        "masterpiece",
+        "best quality",
+        "highly detailed",
+        "sharp focus"
+      ],
+      "描述模板": [
+        "A photorealistic photograph of",
+        "cinematic composition",
+        "soft natural light",
+        "shot on a full-frame camera"
+      ]
+    },
+    "negative": {
+      "通用负面": [
+        "worst quality",
+        "low quality",
+        "blurry",
+        "watermark",
+        "text",
+        "deformed"
+      ]
+    }
+  },
+  "flux": {
+    "positive": {
+      "描述模板": [
+        "A photorealistic photograph of",
+        "shot on a full-frame camera with an 85mm lens",
+        "shallow depth of field",
+        "natural volumetric lighting",
+        "ultra detailed skin texture",
+        "cinematic color grading",
+        "high dynamic range"
+      ],
+      "质量词": [
+        "highly detailed",
+        "professional photography",
+        "sharp focus",
+        "8k uhd"
+      ]
+    }
+  },
+  "_shared": {
+    "positive": {
+      "光照氛围": [
+        "soft natural light",
+        "golden hour",
+        "cinematic lighting",
+        "backlighting",
+        "volumetric light",
+        "soft diffused light",
+        "dramatic shadows",
+        "rim lighting",
+        "soft lighting",
+        "volumetric lighting",
+        "dramatic lighting"
+      ],
+      "镜头构图": [
+        "close-up",
+        "upper body",
+        "full body",
+        "from side",
+        "depth of field",
+        "85mm lens"
+      ],
+      "画质增强": [
+        "sharp focus",
+        "high contrast",
+        "vivid colors",
+        "intricate details",
+        "fine skin texture"
+      ],
+      "构图": [
+        "rule of thirds",
+        "close-up portrait",
+        "full body shot",
+        "shallow depth of field",
+        "close-up",
+        "upper body",
+        "cowboy shot",
+        "full body",
+        "from side"
+      ],
+      "构图与镜头": [
+        "close-up",
+        "portrait",
+        "full body",
+        "from side",
+        "looking at viewer",
+        "detailed background"
+      ],
+      "光照": [
+        "cinematic lighting",
+        "soft lighting",
+        "rim light",
+        "backlighting"
+      ],
+      "年代标签": [
+        "year 2024",
+        "year 2025",
+        "newest"
+      ],
+      "氛围": [
+        "golden hour",
+        "soft window light",
+        "moody atmosphere",
+        "film grain"
+      ]
+    },
+    "negative": {
+      "画风排除": [
+        "cartoon",
+        "3d",
+        "cgi",
+        "painting",
+        "sketch",
+        "anime",
+        "3d render"
+      ],
+      "词嵌入（需已安装）": [
+        "embedding:EasyNegative",
+        "embedding:EasyNegativeV2",
+        "embedding:badhandv4",
+        "embedding:ng_deepnegative_v1_75t",
+        "embedding:deep_negative_pony"
+      ],
+      "质量负面": [
+        "worst quality",
+        "low quality",
+        "lowres",
+        "blurry",
+        "jpeg artifacts",
+        "bad proportions",
+        "bad anatomy"
+      ],
+      "来源排除": [
+        "source_pony",
+        "source_furry"
+      ],
+      "解剖手部": [
+        "bad anatomy",
+        "bad hands",
+        "extra fingers",
+        "missing fingers",
+        "mutated hands",
+        "extra limbs",
+        "poorly drawn face"
+      ],
+      "年代排除": [
+        "old",
+        "year 2020",
+        "year 2021"
+      ],
+      "说明": [
+        "FLUX 用自然语言描述，一般不需要负面提示词",
+        "如需排除内容，直接写成正向描述的反面，例如 no text, no watermark"
+      ]
+    }
+  }
+}
