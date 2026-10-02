@@ -1,3 +1,5 @@
+![](https://github.com/user-attachments/assets/…)<img width="1920" height="971" alt="PixPin_2026-09-23_21-55-18" src="https://github.com/user-attachments/assets/05499a56-2230-454d-9ce4-6ac12d22f347" />![](https://github.com/user-attachments/assets/…)<img width="1920" height="971" alt="PixPin_2026-09-23_19-23-48" src="https://github.com/user-attachments/assets/2d2f22ae-e34e-457b-b1ee-f089a990e8a3" />
+
 # ComfyUI-Model-Conflict-and-Prompt-Tools
 
 **看清你的模型，配对你的提示词** —— 模型缩略图选择 · 架构冲突红蓝标记 · 按底模架构自动切提示词词库 · 词嵌入兼容标记 · 预览图自动落盘
