@@ -10,6 +10,8 @@ an architecture-aware prompt & embedding picker, a thumbnail model picker with c
 and a preview-saver. No third-party Python dependencies.*
 
 ---
+## Why I Built This
+ComfyUI 中模型架构混用容易导致提示词、Embedding 与 Checkpoint 不兼容。为了减少反复试错，我把日常使用中的几个痛点整合成一个工具集合……
 
 ## 效果展示
 
