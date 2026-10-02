@@ -11,6 +11,19 @@ and a preview-saver. No third-party Python dependencies.*
 
 ---
 
+## 效果展示
+
+<!-- 想让下面出图：点本页右上角 ✏️ 进编辑模式，把截图文件直接拖进编辑框，
+     GitHub 会自动上传并把图片链接插在光标处，然后 Commit changes 就行（不用自己传文件、不用管路径）。 -->
+
+**① 模型弹窗** —— 缩略图选模型，并按架构标色：红 = 冲突、蓝 = 兼容、无色 = 没认出来
+
+**② 提示词弹窗** —— 认出底模架构后自动切到对应词库，词条带词嵌入兼容徽标
+
+**③ 词嵌入选择器** —— 红 / 黄 / 蓝 / 绿 兼容徽标 + 打字补全 + 撤销插入
+
+---
+
 ## 里面有什么
 
 | 目录 | 类型 | 一句话 |
@@ -20,6 +33,10 @@ and a preview-saver. No third-party Python dependencies.*
 | [`plugins/ComfyUI-AutoSavePreview`](plugins/ComfyUI-AutoSavePreview) | 节点插件 | 「预览图像」在写 temp 预览的同时，把整张图**另存一份到 output** |
 | [`tools/ComfyUI-NetFast`](tools/ComfyUI-NetFast) | 工具（非插件） | 让 ComfyUI 的 pip / git / Manager 下载走镜像与代理的启动器改造 |
 | [`tools/ComfyUI-InstallMissing`](tools/ComfyUI-InstallMissing) | 工具（非插件） | 扫描工作流，列出缺失插件与缺失 Python 依赖，并批量补装 |
+
+> 想让模型弹窗里出现缩略图，得把图片**改成和模型同名**、放在同一个目录：
+> `xxx.safetensors` 配 `xxx.png`。规则和 SD WebUI 完全一样，详见
+> [ModelImagePicker 的说明](plugins/ComfyUI-ModelImagePicker)。
 
 三个插件的共同点：
 
@@ -33,7 +50,7 @@ and a preview-saver. No third-party Python dependencies.*
 ## 快速开始
 
 ```powershell
-git clone https://github.com/YOUR_GITHUB_USER/ComfyUI-Model-Conflict-and-Prompt-Tools.git
+git clone https://github.com/chenghe7788/ComfyUI-Model-Conflict-and-Prompt-Tools.git
 cd ComfyUI-Model-Conflict-and-Prompt-Tools
 
 # 自动探测 ComfyUI 便携版目录；探不到就手动指定
