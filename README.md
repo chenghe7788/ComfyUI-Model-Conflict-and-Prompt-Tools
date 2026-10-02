@@ -1,6 +1,3 @@
-![](https://github.com/user-attachments/assets/…)<img width="1920" height="971" alt="PixPin_2026-09-23_21-55-18" src="https://github.com/user-attachments/assets/4f2a0760-0e83-4ec7-8834-69e8f16741da" />
-![](https://github.com/user-attachments/assets/…)<img width="1920" height="971" alt="PixPin_2026-09-23_19-23-48" src="https://github.com/user-attachments/assets/2d2f22ae-e34e-457b-b1ee-f089a990e8a3" />
-
 # ComfyUI-Model-Conflict-and-Prompt-Tools
 
 **看清你的模型，配对你的提示词** —— 模型缩略图选择 · 架构冲突红蓝标记 · 按底模架构自动切提示词词库 · 词嵌入兼容标记 · 预览图自动落盘
@@ -24,6 +21,11 @@ and a preview-saver. No third-party Python dependencies.*
 **② 提示词弹窗** —— 认出底模架构后自动切到对应词库，词条带词嵌入兼容徽标
 
 **③ 词嵌入选择器** —— 红 / 黄 / 蓝 / 绿 兼容徽标 + 打字补全 + 撤销插入
+
+![](https://github.com/user-attachments/assets/…)<img width="1920" height="971" alt="PixPin_2026-09-23_21-55-18" src="https://github.com/user-attachments/assets/4f2a0760-0e83-4ec7-8834-69e8f16741da" />
+![](https://github.com/user-attachments/assets/…)<img width="1920" height="970" alt="PixPin_2026-10-02_18-04-42" src="https://github.com/user-attachments/assets/89459013-7a6e-4695-aad8-8b21f88eb79e" />
+
+![](https://github.com/user-attachments/assets/…)<img width="1920" height="971" alt="PixPin_2026-09-23_19-23-48" src="https://github.com/user-attachments/assets/2d2f22ae-e34e-457b-b1ee-f089a990e8a3" />
 
 ---
 
