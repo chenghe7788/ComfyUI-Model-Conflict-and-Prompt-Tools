@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local backups produced by install.ps1 / the plugins themselves
+_plugin_backups/
+*.bak-*
+*.bak.json
+*.bak
+_8189*
+log-*/
+
+# Node (the headless JS test harness needs none, but be safe)
+node_modules/
+package-lock.json
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

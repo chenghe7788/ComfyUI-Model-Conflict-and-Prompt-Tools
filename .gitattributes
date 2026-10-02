@@ -1,0 +1,11 @@
+# Keep the repository content LF; Windows launchers stay CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.onnx binary
+*.safetensors binary
